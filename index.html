@@ -3,96 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Juan Francisco Candia - CV</title>
+  <title>CV - Juan Francisco Candia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 2rem auto;
-      max-width: 800px;
-      line-height: 1.6;
-      color: #333;
-      background: #f9f9f9;
-      padding: 1rem;
-    }
-    h1, h2, h3 {
-      color: #005a9e;
-      margin-bottom: 0.2rem;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #ccc;
-      margin: 1rem 0;
-    }
-    .section {
-      margin-bottom: 1.5rem;
-    }
-    a {
-      color: #0078d4;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 0.5rem;
-    }
-    th, td {
-      text-align: left;
-      padding: 0.3rem 0.5rem;
-      border-bottom: 1px solid #ddd;
-    }
+    body { background-color: #f8f9fa; }
+    .section-title { color: #0d6efd; margin-top: 2rem; }
+    .contact a { text-decoration: none; color: #0d6efd; }
+    .skills-table td { padding: 0.3rem 0.5rem; }
   </style>
 </head>
-<body>
+<body class="container py-4">
 
-  <header>
-    <h1>Juan Francisco Candia Narváez</h1>
-    <p>QA Funcional y Automatizador Senior | Ingeniero Informático</p>
-    <p>
-      <strong>Ubicación:</strong> Renca, Santiago, Chile<br/>
-      <strong>Contacto:</strong> <a href="tel:+56981666238">(+56) 981666238</a> | 
-      <a href="mailto:candia1978@gmail.com">candia1978@gmail.com</a><br/>
-      <a href="https://www.linkedin.com/in/jfcandia" target="_blank" rel="noopener">linkedin.com/in/jfcandia</a>
-    </p>
+  <header class="text-center mb-4">
+    <h1 class="fw-bold">Juan Francisco Candia Narváez</h1>
+    <p class="lead">QA Funcional y Automatizador</p>
+    <div class="contact">
+      📍 Renca, Santiago, Chile · 📞 <a href="tel:+56981666238">+56 9 8166 6238</a> · ✉️ <a href="mailto:candia1978@gmail.com">candia1978@gmail.com</a><br>
+      🔗 <a href="https://www.linkedin.com/in/jfcandia" target="_blank">linkedin.com/in/jfcandia</a>
+    </div>
   </header>
 
-  <hr />
-
-  <section class="section" id="perfil">
-    <h2>Perfil Profesional</h2>
-    <p>Ingeniero Informático y QA Automation Engineer senior, especializado en automatización y validación de sistemas críticos en salud y servicios públicos. Experto en Playwright, Selenium, Cypress, Postman, JMeter y AWS serverless. He liderado soluciones que eliminaron hasta el 95% de validaciones manuales y mejoraron procesos operativos en más de un 70%. Enfocado en trazabilidad, mejora continua y documentación técnica defendible.</p>
+  <section>
+    <h2 class="section-title">Perfil Profesional</h2>
+    <p>Ingeniero Informático con sólida experiencia en pruebas manuales y automatizadas en sistemas críticos web, biométricos y normativos. Especializado en Playwright, Cypress, Selenium, Postman, JMeter y arquitectura serverless en AWS. He liderado soluciones que eliminaron hasta el 95 % de validaciones manuales y optimizaron procesos operativos en más de un 70 %. Enfocado en trazabilidad, mejora continua y documentación técnica defendible.</p>
+    <p>Domino el ciclo completo de pruebas, conocido como <strong>Software Testing Life Cycle – STLC</strong>, abarcando desde el análisis de requerimientos hasta el cierre técnico con evidencias y recomendaciones.</p>
+    <p>Experiencia consolidada en testing y validación de APIs REST con Postman, realizando pruebas funcionales sobre métodos GET, POST, PUT y DELETE, control de respuestas y errores, y elaboración de documentación detallada.</p>
   </section>
 
-  <section class="section" id="experiencia">
-    <h2>Experiencia Profesional</h2>
-
-    <h3>QA Funcional – Biometría Aplicada</h3>
-    <p><em>Enero 2025 – Julio 2025</em></p>
+  <section>
+    <h2 class="section-title">Experiencia Profesional</h2>
     <ul>
-      <li>Validación de sistemas biométricos (huella, facial, geolocalización).</li>
-      <li>Automatización de flujos DTE con Playwright y n8n.</li>
-      <li>Testing manual en entornos normativos críticos.</li>
-    </ul>
-
-    <h3>QA Mejora Continua – FEMSA S.A.</h3>
-    <p><em>Abril 2023 – Diciembre 2024</em></p>
-    <ul>
-      <li>Pruebas funcionales y automatizadas sobre APIs REST.</li>
-      <li>Desarrollo de portal interno en PHP.</li>
-      <li>Aplicación completa del ciclo de vida de pruebas (STLC), desde análisis hasta informes técnicos.</li>
+      <li><strong>Analista Funcional QA – Biometría Aplicada</strong> (Ene 2025 – Jul 2025)<br>
+        Validación biométrica, automatización de flujos DTE con Playwright y n8n, testing normativo.</li>
+      <li><strong>Ingeniero Mejora Continua QA – FEMSA S.A.</strong> (Abr 2023 – Dic 2024)<br>
+        Pruebas sobre APIs REST, desarrollo interno en PHP, aplicación completa del ciclo STLC.</li>
     </ul>
   </section>
 
-  <section class="section" id="habilidades">
-    <h2>Habilidades Técnicas</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Área</th><th>Herramientas / Tecnologías</th>
-        </tr>
-      </thead>
+  <section>
+    <h2 class="section-title">Habilidades Técnicas</h2>
+    <table class="table table-bordered skills-table">
       <tbody>
         <tr><td>Automatización QA</td><td>Playwright, Cypress, Selenium, n8n</td></tr>
         <tr><td>Testing de APIs</td><td>Postman, REST, JSON</td></tr>
@@ -104,27 +54,31 @@
     </table>
   </section>
 
-  <section class="section" id="educacion">
-    <h2>Educación y Certificaciones</h2>
+  <section>
+    <h2 class="section-title">Educación y Certificaciones</h2>
     <ul>
       <li><strong>Ingeniero Informático</strong> – Duoc UC (2022–2024)</li>
       <li><strong>Analista Programador</strong> – Duoc UC (2019–2021)</li>
-      <li><strong>Certificación:</strong> Getting Started with DevOps on AWS – AWS Training & Certification (Sep 2025)</li>
+      <li><strong>AWS DevOps (Español LATAM)</strong> – AWS Training & Certification (Sep 2025)</li>
     </ul>
   </section>
 
-  <section class="section" id="proyectos">
-    <h2>Proyectos Relevantes</h2>
+  <section>
+    <h2 class="section-title">Proyectos Relevantes</h2>
     <ul>
       <li><strong>Flujo-validacion-DTE:</strong> Automatización tributaria con simulación biométrica.</li>
       <li><strong>aws-dms-migration-orchestrator:</strong> Orquestador serverless para migraciones en AWS.</li>
     </ul>
   </section>
 
-  <section class="section" id="intereses">
-    <h2>Intereses</h2>
+  <section>
+    <h2 class="section-title">Intereses</h2>
     <p>Literatura · Aprendizaje continuo · Escalabilidad técnica · Colaboración multidisciplinaria</p>
   </section>
+
+  <footer class="text-center mt-5">
+    <p class="text-muted">© 2025 Juan Francisco Candia · CV Web con Bootstrap</p>
+  </footer>
 
 </body>
 </html>
