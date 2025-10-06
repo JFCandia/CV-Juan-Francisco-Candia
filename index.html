@@ -7,11 +7,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #ffffff;
+      background-color: #e9ecef; /* gris claro */
       color: #333;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .container {
+    .cv-container {
+      background-color: #ffffff;
+      padding: 2rem;
+      margin: 2rem auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
       max-width: 900px;
     }
     h1, h2, h3 {
@@ -42,91 +47,96 @@
       padding-top: 1rem;
       font-size: 0.9rem;
       color: #666;
+      text-align: center;
     }
   </style>
 </head>
-<body class="container py-4">
+<body>
 
-  <header class="text-center mb-4">
-    <h1 class="fw-bold">Juan Francisco Candia Narváez</h1>
-    <p class="lead">QA Funcional y Automatizador</p>
-    <div class="contact">
-      📍 Renca, Santiago, Chile · 📞 <a href="tel:+56981666238">+56 9 8166 6238</a> · ✉️ <a href="mailto:candia1978@gmail.com">candia1978@gmail.com</a><br>
-      🔗 <a href="https://www.linkedin.com/in/jfcandia" target="_blank">linkedin.com/in/jfcandia</a>
-    </div>
-  </header>
+  <div class="cv-container">
 
-  <section>
-    <h2 class="section-title">Perfil Profesional</h2>
-    <p>Ingeniero Informático con sólida experiencia en pruebas manuales y automatizadas en sistemas críticos web, biométricos y normativos. Especializado en Playwright, Cypress, Selenium, Postman, JMeter y arquitectura serverless en AWS. He liderado soluciones que eliminaron hasta el 95 % de validaciones manuales y optimizaron procesos operativos en más de un 70 %. Enfocado en trazabilidad, mejora continua y documentación técnica defendible.</p>
-    <p>Domino el ciclo completo de pruebas, conocido como <strong>Software Testing Life Cycle – STLC</strong>, abarcando desde el análisis de requerimientos hasta el cierre técnico con evidencias y recomendaciones.</p>
-    <p>Experiencia consolidada en testing y validación de APIs REST con Postman, realizando pruebas funcionales sobre métodos GET, POST, PUT y DELETE, control de respuestas y errores, y elaboración de documentación detallada.</p>
-  </section>
+    <header class="text-center mb-4">
+      <h1 class="fw-bold">Juan Francisco Candia Narváez</h1>
+      <p class="lead">QA Funcional y Automatizador</p>
+      <div class="contact">
+        📍 Renca, Santiago, Chile · 📞 <a href="tel:+56981666238">+56 9 8166 6238</a> · ✉️ <a href="mailto:candia1978@gmail.com">candia1978@gmail.com</a><br>
+        🔗 <a href="https://www.linkedin.com/in/jfcandia" target="_blank">linkedin.com/in/jfcandia</a>
+      </div>
+    </header>
 
-  <section>
-    <h2 class="section-title">Experiencia Profesional</h2>
-    <ul>
-      <li><strong>Analista Funcional QA – Biometría Aplicada</strong> (Ene 2025 – Jul 2025)<br>
-        Validación biométrica, automatización de flujos DTE con Playwright y n8n, testing normativo.</li>
-      <li><strong>Ingeniero Mejora Continua QA – FEMSA S.A.</strong> (Abr 2023 – Dic 2024)<br>
-        Pruebas sobre APIs REST, desarrollo interno en PHP, aplicación completa del ciclo STLC.</li>
-    </ul>
-  </section>
+    <section>
+      <h2 class="section-title">Perfil Profesional</h2>
+      <p>Ingeniero Informático con sólida experiencia en pruebas manuales y automatizadas en sistemas críticos web, biométricos y normativos. Especializado en Playwright, Cypress, Selenium, Postman, JMeter y arquitectura serverless en AWS. He liderado soluciones que eliminaron hasta el 95 % de validaciones manuales y optimizaron procesos operativos en más de un 70 %. Enfocado en trazabilidad, mejora continua y documentación técnica defendible.</p>
+      <p>Domino el ciclo completo de pruebas, conocido como <strong>Software Testing Life Cycle – STLC</strong>, abarcando desde el análisis de requerimientos hasta el cierre técnico con evidencias y recomendaciones.</p>
+      <p>Experiencia consolidada en testing y validación de APIs REST con Postman, realizando pruebas funcionales sobre métodos GET, POST, PUT y DELETE, control de respuestas y errores, y elaboración de documentación detallada.</p>
+    </section>
 
-  <section>
-    <h2 class="section-title">Habilidades Técnicas</h2>
-    <table class="table table-striped table-bordered skills-table">
-      <tbody>
-        <tr><td><strong>Automatización QA</strong></td><td>Playwright, Cypress, Selenium, n8n</td></tr>
-        <tr><td><strong>Testing de APIs</strong></td><td>Postman, REST, JSON</td></tr>
-        <tr><td><strong>Arquitectura Cloud</strong></td><td>AWS Lambda, S3, Step Functions</td></tr>
-        <tr><td><strong>CI/CD</strong></td><td>GitHub Actions</td></tr>
-        <tr><td><strong>Lenguajes</strong></td><td>JavaScript, Python, SQL</td></tr>
-        <tr><td><strong>Pruebas de carga</strong></td><td>JMeter</td></tr>
-      </tbody>
-    </table>
-  </section>
+    <section>
+      <h2 class="section-title">Experiencia Profesional</h2>
+      <ul>
+        <li><strong>Analista Funcional QA – Biometría Aplicada</strong> (Ene 2025 – Jul 2025)<br>
+          Validación biométrica, automatización de flujos DTE con Playwright y n8n, testing normativo.</li>
+        <li><strong>Ingeniero Mejora Continua QA – FEMSA S.A.</strong> (Abr 2023 – Dic 2024)<br>
+          Pruebas sobre APIs REST, desarrollo interno en PHP, aplicación completa del ciclo STLC.</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2 class="section-title">Educación y Certificaciones</h2>
-    <ul>
-      <li><strong>Ingeniero Informático</strong> – Duoc UC (2022–2024)</li>
-      <li><strong>Analista Programador</strong> – Duoc UC (2019–2021)</li>
-      <li><strong>AWS DevOps (Español LATAM)</strong> – AWS Training & Certification (Sep 2025)</li>
-    </ul>
-  </section>
+    <section>
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <table class="table table-striped table-bordered skills-table">
+        <tbody>
+          <tr><td><strong>Automatización QA</strong></td><td>Playwright, Cypress, Selenium, n8n</td></tr>
+          <tr><td><strong>Testing de APIs</strong></td><td>Postman, REST, JSON</td></tr>
+          <tr><td><strong>Arquitectura Cloud</strong></td><td>AWS Lambda, S3, Step Functions</td></tr>
+          <tr><td><strong>CI/CD</strong></td><td>GitHub Actions</td></tr>
+          <tr><td><strong>Lenguajes</strong></td><td>JavaScript, Python, SQL</td></tr>
+          <tr><td><strong>Pruebas de carga</strong></td><td>JMeter</td></tr>
+        </tbody>
+      </table>
+    </section>
 
-  <section>
-    <h2 class="section-title">Cursos</h2>
-    <ul>
-      <li>Testing de APIs con Postman, scripting SQL avanzado, integración con flujos automatizados</li>
-      <li>Introducción al Análisis de Datos con Python</li>
-      <li>QA Testing Teórico</li>
-      <li>Comunicación Efectiva</li>
-      <li>Curso con Python: Desarrollo Inteligente con IA</li>
-      <li>Testing de Calidad en el Desarrollo de Software</li>
-      <li>Curso completo de QA Engineer desde 0 hasta avanzado</li>
-    </ul>
-  </section>
+    <section>
+      <h2 class="section-title">Educación y Certificaciones</h2>
+      <ul>
+        <li><strong>Ingeniero Informático</strong> – Duoc UC (2022–2024)</li>
+        <li><strong>Analista Programador</strong> – Duoc UC (2019–2021)</li>
+        <li><strong>AWS DevOps (Español LATAM)</strong> – AWS Training & Certification (Sep 2025)</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2 class="section-title">Proyectos Relevantes</h2>
-    <ul>
-      <li><strong>Flujo-validacion-DTE:</strong> Automatización con Playwright y n8n para validación de documentos tributarios y testing biométrico.  
-        <br><a href="https://github.com/JFCandia/Flujo-validacion-DTE" target="_blank">🔗 Ver proyecto</a></li>
-      <li><strong>aws-dms-migration-orchestrator:</strong> Diseño de orquestador de migraciones de bases de datos con arquitectura serverless (AWS).  
-        <br><a href="https://github.com/JFCandia/aws-dms-migration-orchestrator" target="_blank">🔗 Ver proyecto</a></li>
-    </ul>
-  </section>
+    <section>
+      <h2 class="section-title">Cursos</h2>
+      <ul>
+        <li>Testing de APIs con Postman, scripting SQL avanzado, integración con flujos automatizados</li>
+        <li>Introducción al Análisis de Datos con Python</li>
+        <li>QA Testing Teórico</li>
+        <li>Comunicación Efectiva</li>
+        <li>Curso con Python: Desarrollo Inteligente con IA</li>
+        <li>Testing de Calidad en el Desarrollo de Software</li>
+        <li>Curso completo de QA Engineer desde 0 hasta avanzado</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2 class="section-title">Intereses</h2>
-    <p>Literatura · Aprendizaje continuo · Escalabilidad técnica · Colaboración multidisciplinaria</p>
-  </section>
+    <section>
+      <h2 class="section-title">Proyectos Relevantes</h2>
+      <ul>
+        <li><strong>Flujo-validacion-DTE:</strong> Automatización con Playwright y n8n para validación de documentos tributarios y testing biométrico.  
+          <br><a href="https://github.com/JFCandia/Flujo-validacion-DTE" target="_blank">🔗 Ver proyecto</a></li>
+        <li><strong>aws-dms-migration-orchestrator:</strong> Diseño de orquestador de migraciones de bases de datos con arquitectura serverless (AWS).  
+          <br><a href="https://github.com/JFCandia/aws-dms-migration-orchestrator" target="_blank">🔗 Ver proyecto</a></li>
+      </ul>
+    </section>
 
-  <footer class="text-center">
-    <p>© 2025 Juan Francisco Candia · CV Web profesional</p>
-  </footer>
+    <section>
+      <h2 class="section-title">Intereses</h2>
+      <p>Literatura · Aprendizaje continuo · Escalabilidad técnica · Colaboración multidisciplinaria</p>
+    </section>
+
+    <footer>
+      <p>© 2025 Juan Francisco Candia · CV Web profesional</p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
